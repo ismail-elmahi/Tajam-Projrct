@@ -1,0 +1,521 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/**************
+       Button Style CSS
+***************/
+.btn-general {
+    border: 2px solid #00e0d0;
+    padding: 14px 30px;
+    color:#00e0d0;
+    transition: .5s;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "hammersmithOne",sans-serif;
+}
+.btn-general:hover {
+    background-color: #00e0d0;
+    color :#fff; 
+}
+/**************
+       Navbar top Style CSS 
+***************/
+  
+#homes {
+    height: 100%;
+}
+
+#homes {
+    height: 670px;
+    background-image: url("../img/bg-home.png");
+    box-shadow: inset 0 0 0 1000px rgba(49,40,82,.8);
+}
+
+#home-content-box {
+   height: 100%;
+    width: 100%;
+    display: table;
+
+}
+
+#home-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.navbar-inverse .navbar-nav>li>a {
+    padding-top: 36px;
+    padding-bottom: 30px;
+    font-size: 13px;
+    font-family:"Roboto", sans-serif;
+    font-weight: bold;
+    color :#fff;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #00e0d0 !important;
+}
+.navbar-inverse .active {
+    color: #00e0d0 !important;
+   
+}
+.navbar-inverse {
+    height: 85px;
+    border:none;
+    background-color: transparent;
+    margin-bottom: 0;
+}
+ 
+/**************
+      Slider home Style CSS 
+***************/
+  
+#home-heading h3 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 25px 0 20px 0;
+    font-family: "Playfair Display", sans-serif;
+}
+.inline-border {
+background-color:#00e0d0;
+    height: 2px;
+    width: 50px;
+    margin: 0 auto;
+}
+#home-heading h6{
+    color: #fff;
+    padding: 0px 300px;
+    line-height: 1.6;
+    font-size: 14px;
+    margin: 25px auto;
+    font-family: "Playfair Display", sans-serif;
+    margin-bottom: 50px;
+}
+
+/**************
+       OUR STORY Style CSS
+***************/
+ 
+.tajam-logo, .story-content {
+    margin-top: 70px;
+    margin-bottom:70px
+}
+
+.story-content h3 {
+    margin-top: 0; 
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #413d4b;
+    font-family: "Playfair Display", sans-serif;
+    text-transform: uppercase;
+}
+.story-content p {
+    font-size: 14px;
+    color: #817f86;
+    text-shadow: 0.3px 0.3px;
+    line-height: 1.5;
+    letter-spacing: .6px;
+    margin-bottom: 12px
+}
+.story-btn {
+    margin-top: 22px;
+}
+
+/**************
+      Video Style  CSS
+***************/
+
+#about {
+    padding-bottom: 200px;
+    padding-top: 200px;
+    background-image: url("../img/bg-vedio.png");
+    box-shadow: inset 0 0 0 1000px rgba(49,40,82,.8);
+}
+
+.video-content {
+    text-align: center;
+}
+.video-content i {
+    color: #fff;
+    font-weight: 100;  
+}
+
+.video-content h3 {
+    color: #fff;
+    margin-top: 34px;
+    margin-bottom: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+}
+
+/**************
+    Service Style CSS
+***************/
+#Expertise {
+    padding-bottom: 68px;
+    padding-top: 66px;
+}
+.content-title h3{
+    font-size: 22px;
+    font-weight: 700;
+    color : #000;
+    margin-bottom: 0;
+    margin-top: 0px;
+    text-align: center;
+    font-family: "Playfair Display", sans-serif;
+}
+.content-title h5{
+    font-size: 14px;
+    color: #817f86;
+    margin-top: 17px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: "Playfair Display", sans-serif;
+    
+}
+
+.content-title-underline {
+    height: 2px;
+    width: 50px;
+    background-color: #c6c4c9;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+
+
+.service-item {
+    padding: 39px 32px 36px 32px; 
+    text-align: center;
+}
+
+.service-item-title h3 {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 0;
+    margin-top: 35px;
+    text-transform: uppercase;
+}
+
+.service-item-desc p{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: #c6c4c9;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+.service-item-icon i {
+    color: #00dfd0;
+     
+}
+/**************
+    Team Style CSS
+***************/
+  
+#Teams {
+    padding-top: 66px;
+    padding-bottom: 68px;
+    background-image: url("../img/bg-team.png");
+    box-shadow: inset 0 0 0 1000px rgba(49,40,82,.8);
+}
+.team-box {
+    border: 1px solid #79768e;
+    display: inline-block;
+   
+}
+#Teams .content-title h3 {
+    color: #fff;
+}
+.team-content {
+    padding: 20px 50px;
+    color: #fff;
+    text-align: center;
+}
+.team-img img{
+    width: 220px;
+    height: 230px;
+}
+.team-content h4 {
+    font-size:14px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.team-content h5 {
+    font-size:13px;
+    margin: 0;
+        color:#c1c0c8;
+    font-weight: 100;
+}
+.team-footer {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.team-footer  h4 {
+    font-size: 14px;
+    color: #d6d5db;
+    margin: 0;
+    font-weight: 100;
+}
+
+.team-btn{
+    margin-top: 25px;
+    
+}
+
+/**************
+    Work Style CSS
+***************/
+.work-box {
+    padding: 60px 0;
+}
+.work-title h3 {
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    font-family: "Playfair Display", sans-serif;
+    letter-spacing: 1px;
+}
+
+#work-gallery{
+   padding-right: 15px; 
+}
+.see-all a {
+    font-size: 14px;
+    font-weight: 100;
+    color:#413d4b !important;
+   
+}
+.see-all a span {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.row.no-pid [class*=col-] {
+    padding-left: 0;
+    padding-right: 0;
+}
+.work-img img {
+    width: 267px;
+    height: 200px;
+}
+  
+
+ 
+
+.work-btn {
+    text-align: center;
+    padding: 70px 0;
+}
+
+/**************
+    Testimonial Style CSS
+***************/
+#People {
+    padding-top: 55px;
+    padding-bottom: 70px;
+    background-image: url("../img/bg-testimonial.png");
+    box-shadow: inset 0 0 0 1000px rgba(49,40,82,.8);
+}
+.quotes {
+    text-align: center;
+    color: #fff;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 50px;
+}
+.testimonial-content {
+    margin-top: 30px;
+    text-align: center;
+   
+}
+.testimonial-content p {
+    font-size: 16px;
+     font-family: "Playfair Display", sans-serif;
+    color: #fff;
+    margin-bottom: 50px
+    
+}
+
+.testimonial-content h4 {
+    font-size: 14px;
+    color: #fff;
+    margin :0;
+    letter-spacing: 1px;
+    font-weight: 700;   
+}
+
+.testimonial-content h5 {
+    color:#cfced4;
+    margin-top: 14px;
+    letter-spacing: 1px;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+/**************
+    Contact Style CSS
+***************/
+#contact {
+    padding:70px 0;
+    
+}
+.contact-title{
+    margin-bottom: 35px;
+}
+.contact-title h3{
+    font-size: 22px;
+     font-family : "Playfair Display", sans-serif;
+    font-weight: bold;
+    color: #413d4b;
+    margin: 0;
+}
+.form-control  {
+    margin-bottom: 23px;
+    padding: 15px 20px;
+    height: 45px;
+}
+
+.client-imgs {
+    padding-bottom:45px;
+}
+
+
+/**************
+    Footer Style CSS
+***************/
+
+#footer {
+    background-image: url("../img/bg-footer.png");
+    box-shadow: inset 0 0 0 1000px rgba(49,40,82,.8); 
+}
+
+.footer-box {
+    padding-top: 70px;
+}
+.footer-logo {
+    margin-bottom: 26px;
+}
+.footer-left p {
+    font-size: 14px;
+     
+    color: #fff;
+    letter-spacing: .5px;
+}
+
+.footer-title{
+    margin-bottom: 30px;
+    
+}
+.footer-title h3 {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+
+#footer .form-control {
+    background-color: transparent;
+    width: 210px;
+    border-radius: 0;
+    display: inline-block;
+    margin-bottom: 24px;
+    
+}
+
+.listadress li
+{
+    margin-bottom: 10px;
+    display: block;
+    overflow: hidden;
+    color: #fff;
+}
+
+.listadress li i {
+    width:8%;
+    float: left;
+    margin-top: 4px;
+    line-height: 22px;
+
+    
+}
+.listadress li span {
+width:92%;
+    float: right;
+        margin-bottom: 8px;
+}
+
+#footer .footer-content .btn {
+     border-radius: 0;
+    margin-bottom: 3px;
+    color: #000;
+    background-color: #9c95ad;
+}
+
+.footer-content .social-list li{
+    display: inline-block;
+    padding-left: 5px;
+    border-radius: 50%;
+    padding-right: 5px;
+    font-size: 14px;
+    padding: 5px 9px;
+    border: 1px solid #f5f5f5;
+}
+
+.footer-content .social-list li i {
+    color: #fff;
+}
+.footer-final ul {
+        margin-bottom: 0;
+}
+.footer-list a{
+    padding: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .5px; 
+
+}
+
+.copyright h5 {
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: .5px;  
+}
+
+.footer-final {
+   padding: 55px 0;
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
